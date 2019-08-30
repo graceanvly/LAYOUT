@@ -88,13 +88,10 @@ a {
     left: 544px;
 }
 /* Map Information Styles */
-.mapInfo {
+div.mapInfo {
     display: none;
-  
 }
-a.battleMarker:hover + div.mapInfo {
-    visibility: visible;
+a.battleMarkers:hover + div.mapInfo {
     display: block;
-    
 }
 
